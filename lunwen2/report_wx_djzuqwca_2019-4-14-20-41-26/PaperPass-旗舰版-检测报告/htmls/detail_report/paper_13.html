@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>PaperPass 最权威论文抄袭检测系统</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <div class="text-center PT30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_12.html"><span>上一页</span></a></li>
+    <li><a href="paper_14.html"><span>下一页</span></a></li>
+    <li><a href="paper_14.html"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">13</span>/<span>14</span>
+            页
+        </div>    </div>
+    <div class="paper-txt P30 PB0">
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="700">700</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本文在开发时，为了简化硬件开发难度，采用了基于DSP28335的开发板。</span><a href='../sentence_detail/1215.html' target='right' class='g-font-color orange'>该开发板以TMS320F28335芯片为控制核心，具有丰富的外设资源，包含多大18路的PWM输出；</a> <span class="g-font-color green">具备256K×16位FLASH与34K×16位的SRAM[17]；</span> <span class="g-font-color green">具备16路12位的ADC通道，并且具有6个支持ADC的DMA通道；</span> <span class="g-font-color green">具有88路GPIO引脚；</span> <span class="g-font-color green">具备看门狗电路等。</span> <span class="g-font-color green">下表为本次设计所占用的DSP硬件资源。</span> <span class="g-font-color green">控制系统的软件设计</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="701">701</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本文在软件设计时，采用了模块化的封装，尽量简化软件的后期维护，使得软件模块能够重复化使用。</span><a href='../sentence_detail/1223.html' target='right' class='g-font-color red'>电机控制系统的设计主要由主程序与中断程序两部分组成。</a><a href='../sentence_detail/1224.html' target='right' class='g-font-color orange'>主程序主要负责一些初始化工作，包括DSP系统的初始化，各硬件功能模块的初始化，系统中断的设置，以及一些程序变量的初始化。</a><a href='../sentence_detail/1225.html' target='right' class='g-font-color orange'>中断程序则包含测量模块的A/D采样，系统故障中断保护等。</a> <span class="g-font-color green">软件的结构流程图如下所示：</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="702">702</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1227.html' target='right' class='g-font-color orange'>系统软件中的中断服务子程序包含了系统控制中关键的信号测量反馈功能以及PWM输出控制信号功能。</a><a href='../sentence_detail/1228.html' target='right' class='g-font-color orange'>当程序运行的时候，首先主程序模块完成各部分的初始化设置、中断设置，等待中断到来。</a><a href='../sentence_detail/1229.html' target='right' class='g-font-color orange'>当子程序中断请求到来的时候，程序跳出主程序的运行，响应并执行发出中断请求的子程序，</a><a href='../sentence_detail/1230.html' target='right' class='g-font-color orange'>子程序执行完毕，程序返回主程序，继续等待下一个请求中断，周而复始，实现系统对电机的控制。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="703">703</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">软件开发环境</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="704">704</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green"> DSP的开发环境采用的是 TI推出的集成开发环境 CCS4.0( Code Composer Studio4.0），</span> <span class="g-font-color green">它是针对嵌入式开发的交互式软件，针对本文使用的 DSP处理器 TMS320 F28335，使用仿真器 XDS100 USB，</span> <span class="g-font-color green">可以很方便地将程序编译的可执行文件下载到 DSP芯片中，进行在线开发与调试。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="705">705</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">CCS4.0包含一整套适用于嵌入式开发的软件工具，其开发具有以下特点：</span> <span class="g-font-color green">代码编辑页面可视化；</span> <span class="g-font-color green">代码生成集成化，将代码的编写，编译，连接，初始化与代码的调试继承在一个开发工具里；</span> <span class="g-font-color green">多样的调速工具与断点工具等等[49]。</span> <span class="g-font-color green"> CCS4.0的开发有两种模式，一种是利用仿真器进行模拟调试，可以在没有 DSP芯片的情况下，</span> <span class="g-font-color green">用计算机模拟 DSP的工作指令环境，主要用于应用程序的前期开发；</span> <span class="g-font-color green">另外一种是把仿真器与硬件电路结合[16]，在这种情况下，可以把代码编译生成的可执行文件下载到 DSP芯片中，</span> <span class="g-font-color green">可以在线调试代码在硬件上的执行效果。</span> <span class="g-font-color green">CCS4.0的开发环境如下图所示：</span> <span class="g-font-color green">主程序设计</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="706">706</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">当 DSP上电以后首先需要执行的是系统的初始化工作，使得系统可以正常地运行，</span><a href='../sentence_detail/1246.html' target='right' class='g-font-color orange'>程序的初始化过程包含寄存器初始化、看门狗初始化、时钟频率初始化、芯片部分引脚初始化、定时器初始化、</a><a href='../sentence_detail/1247.html' target='right' class='g-font-color orange'>硬件功能模块初始化（如增强型正交编码模块（ eQEP）、 ADC模块、 PWM模块等），</a><a href='../sentence_detail/1248.html' target='right' class='g-font-color orange'>变量初始化，励磁绕组的参数测量。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="707">707</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1249.html' target='right' class='g-font-color orange'>在程序初始化的过程中，需要关闭所有的中断请求，避免中断对系统初始化的干扰，</a> <span class="g-font-color green">待系统初始化完成以后重新配置中断信息，等待中断请求到来，中断请求一旦到来系统马上响应中断，</span><a href='../sentence_detail/1251.html' target='right' class='g-font-color orange'>推出主程序并开始执行发出中断请求的子程序模块。</a> <span class="g-font-color green">下图为主程序流程示意图：</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="708">708</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">5.3.2.1 初始化子程序</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="709">709</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1254.html' target='right' class='g-font-color orange'>系统启动后的首要工作就是完成主要模块的初始化设置。</a><a href='../sentence_detail/1255.html' target='right' class='g-font-color orange'>系统的初始化工作包含以下内容：</a> <span class="g-font-color green">对DSP系统进行初始化，包含系统相关寄存器的初始化，配置看门狗，设置时钟频率并对系统用到的各个外设模块的时钟进行使能[49]。</span> <span class="g-font-color green">此外DSP芯片TMS320F28335拥有88个GPIO口，大多数引脚是功能复用的，针对本文的需要，对部分GPIO引脚进行初始化配置。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="710">710</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1258.html' target='right' class='g-font-color orange'>增强型正交编码模块 eQEP是 TMS320 F28335中专门用来配合光电编码器以获得电机等</a><a href='../sentence_detail/1259.html' target='right' class='g-font-color orange'>运动控制系统中的速度信息、方向信息以及位置信息的模块[56]，</a> <span class="g-font-color green">需要使其工作在正交时钟模式下。</span><a href='../sentence_detail/1261.html' target='right' class='g-font-color orange'>初始化系统定时器，系统定时器定时设为2秒，为系统的计算任务提供时间基准。</a><a href='../sentence_detail/1262.html' target='right' class='g-font-color orange'>配置系统相关寄存器以及GPIO口的配置，完成ADC模块的初始化设置，保证A/D转换的正常运行。</a> <span class="g-font-color green">完成系统相关寄存器以及GPIO口的配置，完成PWM模块的初始化设置，设定好预设的占空比与信号频率。</span><a href='../sentence_detail/1264.html' target='right' class='g-font-color orange'>初始化按键模块与LCD显示模块，便于后面的人机交互，对程序系统变量赋予初始值。</a><a href='../sentence_detail/1265.html' target='right' class='g-font-color red'>初始化子程序流程图如下所示：</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="711">711</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">5.3.2.2 励磁绕组参数测量</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="712">712</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1267.html' target='right' class='g-font-color orange'>由本文第三章第六小节的分析可知，励磁绕组的传递函数为一个一阶惯性环节：</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="713">713</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1268.html' target='right' class='g-font-color orange'>式5.4中，T=L/R，L为励磁绕组的电感，R为励磁绕组的电阻。</a> <span class="g-font-color green">对于大功率他励直流电机而言，和电机电枢绕组相比，励磁绕组的电感通常都比较大，可以达到几十亨（ H），</span><a href='../sentence_detail/1270.html' target='right' class='g-font-color orange'>而励磁绕组的电阻则不会太大，这意味着励磁绕组的阶跃响应曲线的过渡时间比较长。</a> <span class="g-font-color green">通过测量励磁绕组的“飞升曲线”，可以完成对励磁绕组参数的测量，进而整定出最合适的PI控制器参数，达到最佳控制效果。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="714">714</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">整个励磁绕组参数的测量过程中需要施加两个不同的控制量。</span> <span class="g-font-color green">大多数系统在0控制量附近都存在死区，也就是说在控制量小于3%到5%的情况下，励磁绕组上加载的电压实际为0。</span> <span class="g-font-color green">在第一阶段，需要对励磁绕组施加10%左右的控制量，以消除控制量死区的影响，等到励磁绕组电流稳定以后，</span> <span class="g-font-color green">对励磁绕组施加80%左右的控制量，测量整个过程中的“飞升曲线。</span> <span class="g-font-color green">因为存在测量噪声的干扰，当三次励磁电流的测量值偏差均在5%以内，可以认为励磁电流已经处于稳态。</span> <span class="g-font-color green">根据公式3.24，可以得到K的值，即1/R，得到励磁绕组电阻大小。</span><a href='../sentence_detail/1278.html' target='right' class='g-font-color orange'>根据公式3.30，找到对应电流值所对应的时间值，可以得到励磁线圈T的大小，进一步得到励磁线圈电感L的大小。</a><a href='../sentence_detail/1279.html' target='right' class='g-font-color orange'>根据得到的参数值，设定PI控制器的参数值。</a><a href='../sentence_detail/1280.html' target='right' class='g-font-color orange'>励磁控制器参数测量流程图如下所示：</a> <span class="g-font-color green">中断程序设计</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="715">715</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1282.html' target='right' class='g-font-color orange'>中断程序中包含了系统转速控制中的大部分工作。</a><a href='../sentence_detail/1283.html' target='right' class='g-font-color orange'>当主程序的初始化工作完成以后，程序开始循环等待。</a><a href='../sentence_detail/1284.html' target='right' class='g-font-color orange'>一旦中断请求到来，微处理器跳出主程序的执行，开始执行发出中断服务的子程序。</a><a href='../sentence_detail/1285.html' target='right' class='g-font-color orange'>在中断子程序中，程序首先利用测量模块获取实时的测量数据并进行 A/ D转换，</a><a href='../sentence_detail/1286.html' target='right' class='g-font-color orange'>所测量的数据包括电机电枢电流、电机转速、励磁绕组电流等，</a><a href='../sentence_detail/1287.html' target='right' class='g-font-color orange'>对其中一些数据在液晶模块上进行实时显示。</a> <span class="g-font-color green">等到获取到相关测量数据后，程序需要判断是否存在异常数据，如果检测到异常数据，立即执行故障中断子程序。</span> <span class="g-font-color green">异常检测的目的是为了避免意外情况下电机的损伤，故障中断子程序会暂停PWM信号的输出，以此来实现系统保护的目的。</span> <span class="g-font-color green">如果一切正常，基于所测量的数据，控制器会按照给定的控制算法计算所输出 PWM信号的占空比，最后利用 IGBT驱动模块将 PWM信号传递给功率器件 IGBT，</span> <span class="g-font-color green">从而给电机加载上合适的电压，实现电机的转速控制。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="716">716</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">5.3.3.1 电机转速测量设计</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="717">717</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1293.html' target='right' class='g-font-color orange'>电机的控制效果依赖于电机转速的准确测定。</a><a href='../sentence_detail/1294.html' target='right' class='g-font-color orange'>在本文第四章节中提出了一种基于扰动观测器的控制策略，通过扰动观测器对系统的干扰进行观测补偿，来提高控制系统的转速控制效果。</a> <span class="g-font-color green">扰动观测器依赖转速反馈来对干扰进行观测并补偿，因此系统能否对转速进行高精度宽范围的测量与对干扰的估算精度高低密切相关[60]。</span><a href='../sentence_detail/1296.html' target='right' class='g-font-color orange'>对于转速的测量，最好能够满足测速快、测量精度高，测量范围广的特点。</a><a href='../sentence_detail/1297.html' target='right' class='g-font-color orange'>在实际的测速应用中，比较常用的测速方法有M法，T法和M/T法[61-63]。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="718">718</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1298.html' target='right' class='g-font-color orange'>M法测速的原理是检测一段时间内光电编码器脉冲的个数，以计算电机的转速[64]。</a><a href='../sentence_detail/1299.html' target='right' class='g-font-color orange'>假如电机每转一圈，光电编码器产生 Z个脉冲，在时间 T内共统计到 M个脉冲，</a> <span class="g-font-color green">那么电机的转速表达式（以 r/ min为单位）为：</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="719">719</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1301.html' target='right' class='g-font-color orange'>M法适合测量高转速的情况，其测量精度随转速提高而增大。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="720">720</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1302.html' target='right' class='g-font-color orange'>T法测速的原理是在光电编码器一个脉冲周期内，对已知的高频脉冲进行计数，以此测量电机转速[64]。</a><a href='../sentence_detail/1303.html' target='right' class='g-font-color orange'>假如电机每转一圈，光电编码器产生 Z个脉冲，在光电编码器1个脉冲周期内，对已知频率为 f的高频脉冲进行技术，</a> <span class="g-font-color green">所接收到的脉数为 N，那么电机的转速表达式：</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="721">721</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1305.html' target='right' class='g-font-color orange'>T法测速适合电机转速比较低的情况，随着转速的变高，T法测速的精度会降低。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="722">722</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1306.html' target='right' class='g-font-color orange'> M/ T法测速是将 M法与 T法测速相结合，在时间 T内，</a><a href='../sentence_detail/1307.html' target='right' class='g-font-color orange'>既检测内光电编码器的脉冲个数，又统计高频脉冲个数[64]。</a><a href='../sentence_detail/1308.html' target='right' class='g-font-color orange'>假如，时间T内光电编码器脉冲个数为M，频率f 的高频脉冲个数为M，那么电机转速（r/min）为：</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="723">723</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1309.html' target='right' class='g-font-color orange'>M/T 方法测速范围比较广，对高低转速都有比较高的精度。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="724">724</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">在本文中，采用增强性光电编码器与TMS320F28335中自带的增强性编码模块（eQEP）来获取电机的转速与位置信息。</span><a href='../sentence_detail/1311.html' target='right' class='g-font-color orange'>增强型光电编码器每产生一个角位移就会生成一个脉冲信号，产生的脉冲信号如下所示：</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="725">725</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1312.html' target='right' class='g-font-color orange'>增强型光电编码器在电机转动时产生3路脉冲信号，通过A路与B路脉冲信号的相位关系，可以判断电机是正转还是反转。</a><a href='../sentence_detail/1313.html' target='right' class='g-font-color orange'>Z路是一个标准信号，码盘每旋转一周，生成一个脉冲信号，可以用于电机的基准定位[49]。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+            </div>
+    <div class="text-center PB30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_12.html"><span>上一页</span></a></li>
+    <li><a href="paper_14.html"><span>下一页</span></a></li>
+    <li><a href="paper_14.html"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">13</span>/<span>14</span>
+            页
+        </div>    </div>
+        <div style="text-align: center;padding-top:30px">
+        <a href="http://www.paperpass.com" target="_blank"><img src="http://file.paperpass.com/images/fabiao.jpg"/></a></div>
+        <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2019 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/html" template="section">
+    <div class="text-right">
+        <div class="modifyTxt-notice">
+            修改完本段落之后，点击“临时保存”，之后可在上方导航“修改文档”页面中查看修改后的内容
+        </div>
+        <textarea class="form-control resize-none" rows="4" tpl-section="textarea"></textarea>
+        <div class="button-wrap MT10">
+            <button type="button" class="g-btn g-btn-default g-btn-sm red" tpl-section-cancle="btn">取消保存</button>
+            <button type="button" class="g-btn g-btn-default g-btn-sm" tpl-section-save="btn">临时保存</button>
+        </div>
+    </div>
+</script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    Report.report_id = '5cb32a7650bcarwmq';
+</script>
+<script type="text/javascript">
+    (function(System,$){
+
+        var sectionEdit = System.Paper.sectionEdit();
+        var sectionSave = System.Paper.sectionSave(null);
+        $(function(){
+            $(document).on('click','[tpl-section=btn]',function(){
+                sectionEdit.call(this);
+            });
+            $(document).on('click','[tpl-section-save=btn]',function(){
+                sectionSave.call(this);
+
+            });
+            $(document).on('click','[tpl-section-cancle=btn]',function(){
+                var $warp = $(this).closest('[tpl-section="warp"]');
+                $warp.find('[tpl-section="box"]').html('');
+            });
+
+
+        });
+    })(Report,jQuery);
+
+</script>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>PaperPass 最权威论文抄袭检测系统</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <div class="text-center PT30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_13.html"><span>上一页</span></a></li>
+    <li><a href="#"><span>下一页</span></a></li>
+    <li><a href="#"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">14</span>/<span>14</span>
+            页
+        </div>    </div>
+    <div class="paper-txt P30 PB0">
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="726">726</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">DSP芯片TMS320F28335自带的功能模块eQEP专门用来配合光电编码器以获取电机的速度信息，方向信息以及位置信息[49]。</span> <span class="g-font-color green">eQEP模块有四路引脚，QEPA/XCLK、QEPB/XDIR、eQEPI和QEPS。</span><a href='../sentence_detail/1316.html' target='right' class='g-font-color orange'>前三路引脚可以直接接入增强性光电编码器的 A、 B、 Z三路脉冲输出，在 DSP芯片上设置 eQEP的工作模式，</a> <span class="g-font-color green">就可以在硬件层面脉冲信号进行分析，大大简便了程序的软件设计工作。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="727">727</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">eQEP模块有两种工作模式：</span> <span class="g-font-color green">正交工作模式与直接计数模式。</span> <span class="g-font-color green">本文选择的是正交工作模式，正交工作模式主要包含两部分功能：</span> <span class="g-font-color green">方向解码与时钟解码[65]。</span> <span class="g-font-color green">方向解码工作机制如下，通过比较引脚 QEPA与引脚 QEPA上的脉冲信号相位信息，来判断电机转向，</span> <span class="g-font-color green">并将该信息保存到处理器28335内部寄存器 QEPSTS的 eQDF位，实现方向判断。</span> <span class="g-font-color green">时钟解码工作机制如下：</span> <span class="g-font-color green">解码模块会对引脚QEPA与引脚QEPA上脉冲的上升沿与下降沿进行计数，因此最后统计出来的频率会是光电解码器发出脉冲信号频率的四倍。</span> <span class="g-font-color green">方向解码的工作机制原理图如下所示：</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="728">728</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">当光电编码器脉冲信号到达的时候，引脚 QEPB上的信号总是比 QEPA引脚上的信号相位相差90，这样当电机正转的时候，</span> <span class="g-font-color green">测得的解码信号依次为(00)(10)(11)(01)。</span> <span class="g-font-color green">当电机逆转的时候，测定的解码信号依次为(01) (11) (10) (00)，这样就完成了对电机转速的测定。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="729">729</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">5.3.3.2 A/D采样设计</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="730">730</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1331.html' target='right' class='g-font-color orange'>直流电机在工作过程中，需要对电机电枢电流、电机转速、励磁电流进行实时的监控测量。</a><a href='../sentence_detail/1332.html' target='right' class='g-font-color orange'>根据香农采样定理，只有采用信号的频率不小于模拟信号频谱中最高频率的2倍时，才能够获得不失真的原始信号。</a> <span class="g-font-color green">信号测量发生在中断服务程序中，采样频率约为1 KHz，被采样的信号包含电枢电流信号、电机转速信号、励磁电流信号，</span><a href='../sentence_detail/1334.html' target='right' class='g-font-color orange'>这些信号在电机转速的控制过程中都不是很大，一般情况下均满足香农采样定理。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="731">731</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">5.3.3.3 电机软启动设计</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="732">732</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">在工程应用中，电机作为机器的动力源头，其上连接有传动装置，从而带动机器运转。</span> <span class="g-font-color green">这要求电机在启动过程中的加速度要限定在一定范围内，电机加速度过大，机器内部零部件受力过大，容易降低机器寿命，甚至发生损坏。</span> <span class="g-font-color green">此外电机启动过程中，电枢电流也要限定在一定范围内，避免损毁机器内部零部件。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="733">733</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1339.html' target='right' class='g-font-color orange'>所谓电机的软启动，是指在电机的启动过程中，电机的电压由0逐步增长到额定电压，</a><a href='../sentence_detail/1340.html' target='right' class='g-font-color orange'>这样电机启动过程中的电枢电流不会发生瞬时过大的情况。</a> <span class="g-font-color green">根据实际应用的需要，可以对电机启动过程中的电枢电流进行限制，这样电机启动过程中的加速度就处在一定范围内，避免电机的损害。</span> <span class="g-font-color green">在实际的操作过程中，根据实际情况，设置电流阈值，当检测到的电流数值大于等于电流阈值的时候，不再增加PWM信号的占空比。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="734">734</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">控制实验</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="735">735</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">工业现场生产环境复杂，仅进行模拟实验，本文在实验中使用功率较小的值流电机替代大型晶闸管机主电机进行测试。</span> <span class="g-font-color green">下图为本文基于TMS320F28335所搭建的实验装置示意图：</span> <span class="g-font-color green">励磁控制实验</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="736">736</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">如上文所述，励磁控制需要测定励磁绕组的系统参数，然后根据对应参数设置控制器参数。</span><a href='../sentence_detail/1348.html' target='right' class='g-font-color orange'>实验中所用的直流电机为90 SZ52型，额定功率80 w、额定转速1500 r/ min、电机额定电压220 V、</a><a href='../sentence_detail/1349.html' target='right' class='g-font-color orange'>电枢额定电流0.55 A、励磁额定电压220 V、励磁额定电流0.13 A。</a><a href='../sentence_detail/1350.html' target='right' class='g-font-color orange'>飞升曲线的测量需要消除晶闸管死区的干扰。</a><a href='../sentence_detail/1351.html' target='right' class='g-font-color orange'>下表为对电机励磁绕组施加不同电压值时所对应的稳态励磁电流：</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="737">737</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">在励磁参数测量中，需要施加两次不同的电压值，通过上表数据，选定的电压控制量为40V和220V。</span><a href='../sentence_detail/1353.html' target='right' class='g-font-color orange'>通过实验装置，记录飞升曲线的数据，在实验中最终设定PI控制器参数为Kp=56，Ki=5。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="738">738</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1354.html' target='right' class='g-font-color orange'>在励磁控制实验中，通过电流表观测励磁电流的曲线变化。</a> <span class="g-font-color green">因为小型电机的时间常数比较小，在施加一个励磁电流值后，在很短时间内，励磁电流便上升至稳态，</span><a href='../sentence_detail/1356.html' target='right' class='g-font-color orange'>最终的电流稳态值与设定值的偏差不超过1%，稳态误差很小。</a><a href='../sentence_detail/1357.html' target='right' class='g-font-color orange'>通过三相自耦调压器模拟电网电压的变化[1]当调低电压后。</a> <span class="g-font-color green">直流电压波动范围在10%左右，当通过调压器使直流电压升高时，电流表的时针发生摆动后很快回到原来的位置，发生类似的情况。</span><a href='../sentence_detail/1359.html' target='right' class='g-font-color orange'>测试的结果表明整定的PI控制器参数符合励磁绕组电流调节的要求。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="739">739</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">转速控制实验</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="740">740</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">工程应用中的冷轧管机现场工作情况复杂，因此在实验室中进行模拟实验。</span> <span class="g-font-color green">在实验中，利用调压器改变电压模拟电网的电压波动，利用杠杆结构对电机轴轮施加周期性的</span> <span class="g-font-color green">摩擦力来模拟生产过程中负载转矩的变化[1]。</span> <span class="g-font-color green">所模拟的电网波动幅度为10%到30%，负载变化使电机的电枢电流变化1到3倍，用电压表观测电枢电压，大致来反映转速的变化。</span><a href='../sentence_detail/1365.html' target='right' class='g-font-color orange'>实验结果显示，当电压波动时，电机转速经过波动后重新稳定。</a> <span class="g-font-color green">当模拟的负载加载到电机上时，电机转速波动范围为设定值的5%到10%左右。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="741">741</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本章小结</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="742">742</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本章介绍了实验平台的硬件与软件组成，饱含硬件系统的总体构成，软件系统的整体组成。</span><a href='../sentence_detail/1369.html' target='right' class='g-font-color orange'>对励磁绕组的参数测量设计了软件测量方案，并进行了实验验证。</a><a href='../sentence_detail/1370.html' target='right' class='g-font-color orange'>最后进行了转速实验，对前文理论进行了分析验证。</a> <span class="g-font-color green">总结与展望</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="743">743</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本文主要针对大型他励直流的控制进行了研究与分析，针对冷轧管生产过程中负载转矩周期性变化的情况，</span><a href='../sentence_detail/1373.html' target='right' class='g-font-color orange'>引入负载扰动观测器，提出基于速度环的 P+ DOB控制方案，来提高系统的抗干扰能力，</a> <span class="g-font-color green">来获得更好的控制效果。</span><a href='../sentence_detail/1375.html' target='right' class='g-font-color orange'>下面是对本文所完成的工作所进行的一个总结：</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="744">744</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1376.html' target='right' class='g-font-color orange'>1介绍了冷轧管的生产过程，以及目前主要的控制策略与算法。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="745">745</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1377.html' target='right' class='g-font-color orange'>2介绍了直流电机的双闭环PI控制策略。</a><a href='../sentence_detail/1378.html' target='right' class='g-font-color orange'>针对速度环 PI控制器阶跃响应容易发生超调的情况，提出采用 IP控制器来避免系统响应的超调问题，</a><a href='../sentence_detail/1379.html' target='right' class='g-font-color orange'>最后对 PI与 IP速度环控制器进行了比较，分析了其各自优缺点，并给出了其各自参数的选择策略。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="746">746</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3介绍了励磁绕组的参数测量方法，并给出了励磁绕组参数的自动化测量流程，并在最后给出了其程序实现。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="747">747</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">4针对冷轧管生产过程中负载转矩周期性变化的情况，提出基于速度环的P+DOB控制策略，并比较了不同阶次滤波器对系统响应的影响。</span><a href='../sentence_detail/1382.html' target='right' class='g-font-color orange'>最后比较了 P+ DOB， PI， IP控制器的优缺点，从理论分析中得出 P+ DOB控制器对负载扰动具有最佳的抑制效果，</a><a href='../sentence_detail/1383.html' target='right' class='g-font-color orange'>同时其过渡时间短，系统响应超调小，是最佳的控制方案。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="748">748</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1384.html' target='right' class='g-font-color orange'>5介绍了用于转速实验的平台，并对转速控制策略进行了实验验证。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="749">749</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">虽然取得了一些成果，但时间仓促，还有很多问题需要研究与完善。</span> <span class="g-font-color green">这些问题主要有：</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="750">750</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">1虽然进行了实验验证，但没有在实际工业生产中进行测试，需要进一步检验控制方案的实用性。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="751">751</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1388.html' target='right' class='g-font-color orange'>2对于电流环的扰动并没有进行深入分析，可以考虑在电流环中采用扰动观测器来抑制扰动。</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="752">752</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">由于时间的原因，尚有许多不足，敬请各位老师斧正。</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="753">753</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">致谢</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="754">754</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1391.html' target='right' class='g-font-color red'>时光荏苒，接近三年的研究生生涯即将结束。</a> <span class="g-font-color green">经过这几年的磨砺，我在学习能力、人生视野以及思想境界上都有了不小的提高。</span><a href='../sentence_detail/1393.html' target='right' class='g-font-color orange'>这与老师、同学、朋友对我的帮助密不可分，在这里要向帮助过我的人表示衷心的感谢！</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="755">755</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本论文是在符影杰老师的悉心帮助下完成的，在研究生生涯中，符老师对我悉心的帮助以及认真负责的工作态度，让我受益匪浅。</span> <span class="g-font-color green">实验室的淮攀奇、洪晨、邵楠、惠运东四位同学以及朱宁、徐常新两位师弟都在我的论文完成过程中都给予了很多支持与帮助，</span> <span class="g-font-color green">在这里再次对他们表示感谢！</span>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="756">756</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/1397.html' target='right' class='g-font-color orange'>最后感谢我的家人与朋友在我求学生涯中对我的关心与帮助，祝愿他们永远开心幸福！</a>            </p>
+                        <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+                    </div>
+            </div>
+    <div class="text-center PB30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_13.html"><span>上一页</span></a></li>
+    <li><a href="#"><span>下一页</span></a></li>
+    <li><a href="#"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">14</span>/<span>14</span>
+            页
+        </div>    </div>
+        <div style="text-align: center;padding-top:30px">
+        <a href="http://www.paperpass.com" target="_blank"><img src="http://file.paperpass.com/images/fabiao.jpg"/></a></div>
+        <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2019 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/html" template="section">
+    <div class="text-right">
+        <div class="modifyTxt-notice">
+            修改完本段落之后，点击“临时保存”，之后可在上方导航“修改文档”页面中查看修改后的内容
+        </div>
+        <textarea class="form-control resize-none" rows="4" tpl-section="textarea"></textarea>
+        <div class="button-wrap MT10">
+            <button type="button" class="g-btn g-btn-default g-btn-sm red" tpl-section-cancle="btn">取消保存</button>
+            <button type="button" class="g-btn g-btn-default g-btn-sm" tpl-section-save="btn">临时保存</button>
+        </div>
+    </div>
+</script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    Report.report_id = '5cb32a7650bcarwmq';
+</script>
+<script type="text/javascript">
+    (function(System,$){
+
+        var sectionEdit = System.Paper.sectionEdit();
+        var sectionSave = System.Paper.sectionSave(null);
+        $(function(){
+            $(document).on('click','[tpl-section=btn]',function(){
+                sectionEdit.call(this);
+            });
+            $(document).on('click','[tpl-section-save=btn]',function(){
+                sectionSave.call(this);
+
+            });
+            $(document).on('click','[tpl-section-cancle=btn]',function(){
+                var $warp = $(this).closest('[tpl-section="warp"]');
+                $warp.find('[tpl-section="box"]').html('');
+            });
+
+
+        });
+    })(Report,jQuery);
+
+</script>
+</html>
